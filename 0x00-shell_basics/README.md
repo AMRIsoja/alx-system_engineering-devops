@@ -11,3 +11,4 @@ Bye bye My first directory
 Back to the Future
 Lists
 file type
+symbolic link
