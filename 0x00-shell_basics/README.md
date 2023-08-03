@@ -10,3 +10,4 @@ Bye bye Betty
 Bye bye My first directory
 Back to the Future
 Lists
+file type
