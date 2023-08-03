@@ -1,2 +1,2 @@
 #!/bin/bash
-shopt -s nullglob; mv [A-Z]* /tmp/u
+shopt -s nullglob; for f in [A-Z]*; do mv "$f" /tmp/u; done
