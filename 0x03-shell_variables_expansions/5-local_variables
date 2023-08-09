@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -F | sort | grep -v -e "declare -f"
+declare -g | sort | grep -v -e "declare -f"
