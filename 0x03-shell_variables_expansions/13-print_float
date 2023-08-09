@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(echo $NUM | sed 's/\.[0-9]{3,}$/.00/')"
+echo "$(echo $NUM | cut -d'.' -f1,2)"
