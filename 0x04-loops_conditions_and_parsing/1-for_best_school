@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# this loop diplay best school ten times
-for number in {1..10}; do
+# display best school ten times using for loop
+for ((counter=1; counter<=10; counter++)); do
 	echo "Best School"
 done
