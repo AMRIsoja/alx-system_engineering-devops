@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# displaying numbers from 1 20 but when 4, 9, and 17 add bad luck from china, japan, and italy respectively
+counter=1
+while [ "$counter" -le 20 ]
+do
+	if [ "$counter" -eq 4 ]
+	then
+		echo "$counter"
+		echo "bad luck from china"
+	elif [ "$counter" -eq 9 ]
+	then
+		echo "$counter"
+		echo "bad luck from japan"
+	elif [ "$counter" -eq 17 ]
+	then
+		echo "$counter"
+		echo "bad luck from italy"
+	else
+		echo "$counter"
+	fi
+	counter=$(("$counter" + 1))
+done
