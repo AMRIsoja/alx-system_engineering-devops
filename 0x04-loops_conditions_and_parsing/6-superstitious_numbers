@@ -6,15 +6,15 @@ do
 	if [ "$counter" -eq 4 ]
 	then
 		echo "$counter"
-		echo "bad luck from china"
+		echo "bad luck from China"
 	elif [ "$counter" -eq 9 ]
 	then
 		echo "$counter"
-		echo "bad luck from japan"
+		echo "bad luck from Japan"
 	elif [ "$counter" -eq 17 ]
 	then
 		echo "$counter"
-		echo "bad luck from italy"
+		echo "bad luck from Italy"
 	else
 		echo "$counter"
 	fi
